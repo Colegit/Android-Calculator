@@ -75,19 +75,19 @@
         android:id="@+id/totalAmount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="19.96"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="@+id/tipLabel"
         app:layout_constraintStart_toStartOf="@+id/tipSlider"
-        app:layout_constraintTop_toTopOf="@+id/tipLabel" />
+        app:layout_constraintTop_toTopOf="@+id/tipLabel"
+        tools:text="19.96" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="103.11"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="@+id/totalLabel"
         app:layout_constraintStart_toStartOf="@+id/totalAmount"
-        app:layout_constraintTop_toTopOf="@+id/totalLabel" />
+        app:layout_constraintTop_toTopOf="@+id/totalLabel"
+        tools:text="103.11" />
 </androidx.constraintlayout.widget.ConstraintLayout>
