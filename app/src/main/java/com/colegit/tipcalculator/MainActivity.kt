@@ -18,5 +18,20 @@ class MainActivity : AppCompatActivity() {
         tipSlider = findViewById(R.id.tipSlider)
         tipAmount = findViewById(R.id.tipAmount)
         totalToPay = findViewById(R.id.totalToPay)
+
+        tipSlider.setOnSeekBarChangeListener(object: SeekBar.OnSeekBarChangeListener {
+            override fun onProgressChanged(p0: SeekBar?, p1: Int, p2: Boolean) {
+                TODO("Not yet implemented")
+            }
+
+            override fun onStartTrackingTouch(p0: SeekBar?) {
+                TODO("Not yet implemented")
+            }
+
+            override fun onStopTrackingTouch(p0: SeekBar?) {
+                TODO("Not yet implemented")
+            }
+
+        })
     }
 }
