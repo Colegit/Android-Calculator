@@ -20,17 +20,14 @@ class MainActivity : AppCompatActivity() {
         totalToPay = findViewById(R.id.totalToPay)
 
         tipSlider.setOnSeekBarChangeListener(object: SeekBar.OnSeekBarChangeListener {
+            //these are public interface methods for the setOnSeekBarChangeListener method that is built into kt that need to be overridden.
             override fun onProgressChanged(p0: SeekBar?, p1: Int, p2: Boolean) {
                 TODO("Not yet implemented")
             }
 
-            override fun onStartTrackingTouch(p0: SeekBar?) {
-                TODO("Not yet implemented")
-            }
+            override fun onStartTrackingTouch(p0: SeekBar?) {}
 
-            override fun onStopTrackingTouch(p0: SeekBar?) {
-                TODO("Not yet implemented")
-            }
+            override fun onStopTrackingTouch(p0: SeekBar?) {}
 
         })
     }
